@@ -37,6 +37,12 @@ public class Student {
 			return 0.0;
 		}
 	}
+	public void register(String course, String prof) {
+		courseTaken=course;
+	}
+	public void register(int CRN) {
+		//
+	}
 
 	public void printRecord() {
 		System.out.println(name);
